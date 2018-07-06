@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="chaos">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="statikk.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/statikk/statikk">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="muramana.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/muramana/muramana">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="phantom.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/phantom/phantom">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="trinity.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/trinity/trinity">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="chaos"/>
+        <property name="java-output-path" value="/chaos/build/classes"/>
+    </wb-module>
+</project-modules>
